@@ -11,27 +11,27 @@ namespace tarea_1
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Enter the number of terms: ");
+            Console.WriteLine("Digitar los numeros: ");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            int firstTerm = 0;
-            int secondTerm = 1;
-            int nextTerm;
+            int primeraentrada = 0;
+            int segundaentrada = 1;
+            int tolavaina;
 
-            Console.WriteLine("Fibonacci series: ");
+            Console.WriteLine("Fibonacci: ");
 
             for (int i = 0; i < n; i++)
             {
                 if (i <= 1)
-                    nextTerm = i;
+                    tolavaina = i;
                 else
                 {
-                    nextTerm = firstTerm + secondTerm;
-                    firstTerm = secondTerm;
-                    secondTerm = nextTerm;
+                    tolavaina = primeraentrada + segundaentrada;
+                    primeraentrada = segundaentrada;
+                    segundaentrada = tolavaina;
                 }
 
-                Console.WriteLine(nextTerm);
+                Console.WriteLine(tolavaina);
             }
 
             Console.ReadLine();
