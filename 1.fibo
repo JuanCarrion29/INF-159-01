@@ -6,27 +6,27 @@ namespace Fibonacci_Series
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the number of terms: ");
+            Console.WriteLine("Lo numero compai: ");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            int firstTerm = 0;
-            int secondTerm = 1;
-            int nextTerm;
+            int p = 0;
+            int s = 1;
+            int m;
 
-            Console.WriteLine("Fibonacci series: ");
+            Console.WriteLine("Fibonacci: ");
 
             for (int i = 0; i < n; i++)
             {
                 if (i <= 1)
-                    nextTerm = i;
+                    m = i;
                 else
                 {
-                    nextTerm = firstTerm + secondTerm;
-                    firstTerm = secondTerm;
-                    secondTerm = nextTerm;
+                    m = p + s;
+                    p = s;
+                    s = m;
                 }
 
-                Console.WriteLine(nextTerm);
+                Console.WriteLine(m);
             }
 
             Console.ReadLine();
