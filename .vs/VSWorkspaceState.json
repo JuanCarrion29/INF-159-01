@@ -1,8 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Tarea2"
+    "\\Tarea2",
+    "\\Tarea2\\CantidadSemanas",
+    "\\Tarea2\\Convercion",
+    "\\Tarea2\\Cubos",
+    "\\Tarea2\\Hanoi",
+    "\\Tarea2\\MCD Y MCM",
+    "\\Tarea2\\NumerosPrimos",
+    "\\Tarea2\\Sentido",
+    "\\Tarea2\\Tombola"
   ],
-  "SelectedNode": "\\Tarea2",
+  "SelectedNode": "\\Tarea2\\Palindromos",
   "PreviewInSolutionExplorer": false
 }
